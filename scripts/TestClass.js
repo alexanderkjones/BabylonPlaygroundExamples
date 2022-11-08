@@ -29,7 +29,7 @@ var showAxis = function(size, scene) {
         new BABYLON.Vector3.Zero(), new BABYLON.Vector3(0, 0, size), new BABYLON.Vector3( 0 , -0.05 * size, size * 0.95),
         new BABYLON.Vector3(0, 0, size), new BABYLON.Vector3( 0, 0.05 * size, size * 0.95)
         ], scene);
-    axisZ.color = new BABYLON.Color3(0, 0, 1);
+    axisZ.color = new BABYLON.Color3(1, 0, 0);
     var zChar = makeTextPlane("Z", "blue", size / 10);
     zChar.position = new BABYLON.Vector3(0, 0.05 * size, 0.9 * size);
 };
