@@ -1,4 +1,4 @@
-const addArcCamera = (scene, distance) => {
+var addArcCamera = (scene, distance) => {
 
     // This creates and positions an arc rotate camera
     var camera = new BABYLON.ArcRotateCamera("camera1", -Math.PI / 2, Math.PI / 2 - (Math.PI/10), distance, new BABYLON.Vector3(0, 0, 0));
