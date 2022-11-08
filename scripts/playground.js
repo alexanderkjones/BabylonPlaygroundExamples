@@ -1,4 +1,4 @@
-class TestClass{
+export class TestClass{
     constructor(scene){
         this.scene = scene;
         this.name = test;
